@@ -1,0 +1,26 @@
+shop_management/
+│
+├── main.py                    # मुख्य प्रवेश बिंदू
+├── database.py                # DatabaseManager वर्ग
+├── license.py                 # LicenseManager वर्ग
+├── windows/
+│   ├── __init__.py
+│   ├── login_window.py       # LoginWindow वर्ग
+│   ├── license_window.py     # LicenseActivationWindow वर्ग
+│   └── shop_app.py           # ShopManagementApp वर्ग (मुख्य विंडो)
+├── modules/
+│   ├── __init__.py
+│   ├── sales.py              # Sales संबंधित कार्ये
+│   ├── purchases.py          # Purchases संबंधित कार्ये
+│   ├── stock.py              # Stock management
+│   ├── accounts.py           # Accounts management
+│   ├── reports.py            # Reports generation
+│   └── settings.py           # Settings management
+├── utils/
+│   ├── __init__.py
+│   ├── helpers.py            # सहाय्यक कार्ये
+│   ├── validators.py         # इनपुट व्हॅलिडेशन
+│   └── constants.py          # स्थिरांक
+└── resources/
+    ├── __init__.py
+    └── styles.py             # GUI styling
